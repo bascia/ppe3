@@ -1,0 +1,191 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
+h1{
+	text-align: center;
+	margin-top: 3.5%;
+	text-decoration: underline;
+	font-family: Robotoreg;
+}
+.num_rapport{
+	font-family: Roboto;
+	margin-left: 5%;
+	
+}
+.date{
+	font-family: Roboto;
+	margin-left: 5%;
+}
+.practicien{
+
+	margin-left: 5%;
+	font-family: Roboto;
+	
+}
+
+.motif{
+	font-family: Roboto;
+	margin-left: 3%;
+}
+.bilan{
+	font-family: Roboto;
+	margin-left: 2%;
+	margin-top: 3.5%;
+	
+
+
+}
+
+.annuler{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 25%;
+}
+.envoyer{
+	margin-left: 9%;
+	margin-top: 3%;
+	width: 25%;
+}
+.retour{
+	position: absolute;
+	left: 4vw;
+	width: 25%;
+	top: 5vh;
+}
+.text{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.nom{
+	margin-left: 3%;
+	font-family: Roboto;
+}
+.prenom{
+	margin-left: 5%;
+	font-family: Roboto;
+}
+.cabinet{
+	margin-left: 5%;
+	font-family: Roboto;
+}
+.produit{
+	position: absolute;
+	left: 10vw;
+	top: 43vh;
+	width: 50%;
+}
+#pro1{
+	position: absolute;
+	top: 0vh;
+	left:  15vw;
+	width: 50%;
+}
+#pro2{
+	position: absolute;
+	top: 0vh;
+	left:  45vw;
+	width: 50%;
+}
+#boutons{
+	position: absolute;
+	width: 40%;
+	top: 80vh;
+	left: 59vw;
+}
+#bilan{
+	margin-top: 1%;
+	margin-left: 0%;
+	width: 120%;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  position: absolute;
+  left: 7vw;
+  top: 63.5vh;
+  font-size: 170%;
+  color: orange;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+#textremplacant{
+	position: absolute;
+	width: 6%;
+	top: 16vh;
+	left: 50vw;
+	cursor: pointer;
+}
+#divremplacant{
+	position: absolute;
+	left: 25vw;
+	top: -70vh;
+	width: 50%;
+	height: 400px;
+	opacity: 0;
+	background-color: #3f4750;
+	border-radius: 10%;
+	transition-duration: 0.6s;
+	z-index: -10;
+}
+#titreremp{
+	color: white;
+	font-family: Robotoreg;
+	font-size: 200%;
+	margin-left: 28%;
+}
+#nomremp{
+	margin-top: 10%;
+	color: white;
+	font-family: Roboto;
+	margin-left: 6.4%;
+
+}
+#dateremp{
+	color: white;
+	font-family: Roboto;
+	margin-left: 10%;
+	margin-top: 5.8%;
+}
+#cabinetremp{
+	color: white;
+	font-family: Roboto;
+	margin-top: 5.8%;
+	margin-left: 16%;
+}
+#bilanremp{
+	margin-right: 10%;
+	float: right;
+	margin-top: -13%;
+
+}
+#closeimg{
+	width: 5.5%;
+	float: right;
+	margin-top: -4%;
+	margin-right: 3%; 
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+#validerremp{
+	margin-left: 80%;
+	margin-top: 5%;
+	width: 10%;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-align: center;
+}

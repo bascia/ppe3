@@ -1,0 +1,163 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#date{
+	position: absolute;
+	top: 92.5vh;
+	left: 73vw;
+	font-family: Robotoreg;
+	color: black;
+	font-size: 120%;
+}
+h1{
+	position: absolute;
+
+	background-color: #2d3845;
+	font-size: 365%;
+	top: -6%;
+	left: 0%;
+	right: 0%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+	
+}
+#identifier{
+	font-size: 220%;
+	font-family: Robotoreg;
+	position: absolute;
+	top: 20vh;
+	left: 41.8vw;
+
+}
+#name{
+	font-family: Roboto;
+	position: absolute;
+	top: 40vh;
+	font-size: 115%;
+	padding-left: 1%;
+	left: 43vw;
+	width: 170px;
+	height: 38px;
+	border-color: grey;
+	border-radius: 17px;
+
+}
+#password{
+	font-family: Roboto;
+	position: absolute;
+	top: 53vh;
+	left: 43vw;
+	width: 170px;
+	height: 38px;
+	font-size: 115%;
+	padding-left: 1%;
+	border-color: grey;
+	border-radius: 17px;
+}
+#connexion{
+	font-family: Roboto;
+	position: absolute;
+	top: 65vh;
+	left: 46vw;
+	font-size: 130%;
+	cursor: pointer;
+
+}
+#deleguer{
+	position: absolute;
+	top: 4vh;
+	left: 10vw;
+	font-size: 180%;
+	color: white;
+
+}
+#visiteur{
+	position: absolute;
+	top: 4vh;
+	left: 1vw;
+	font-size: 180%;
+	color: white;
+
+}
+#directeur{
+	position: absolute;
+	top: 4vh;
+	left: 20vw;
+	font-size: 180%;
+	color: white;
+
+}
+
+
+
+/*
+#visiteur{
+	font-family: Roboto;
+	position: absolute;
+	top: 30vh;
+	left: 43vw;
+	font-size: 140%;
+	cursor: pointer;
+	color: black;
+	border-width: 20%;
+	border-color: black;
+	border-style: solid;
+	width: 12%;
+	height: 5.5%;
+	padding-top: 0.5%;
+	padding-left: 1%;
+	text-decoration: none;
+	border-radius: 20px;
+	
+}
+#delegue{
+	font-family: Roboto;
+	position: absolute;
+	top: 45vh;
+	left: 43vw;
+	font-size: 140%;
+	cursor: pointer;
+	color: black;
+	border-width: 20%;
+	border-color: black;
+	border-style: solid;
+	width: 12%;
+	height: 5.5%;
+	padding-top: 0.5%;
+	padding-left: 1%;
+	text-decoration: none;
+	border-radius: 20px;
+	
+}
+#directeur{
+	font-family: Roboto;
+	position: absolute;
+	top: 60vh;
+	left: 43vw;
+	font-size: 140%;
+	cursor: pointer;
+	color: black;
+	border-width: 20%;
+	border-color: black;
+	border-style: solid;
+	width: 12%;
+	height: 5.5%;
+	padding-top: 0.5%;
+	padding-left: 1%;
+	text-decoration: none;
+	border-radius: 20px;
+	
+}*/

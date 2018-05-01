@@ -1,0 +1,68 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
+body{
+	background-color: #2d3845;
+}
+#cons{
+	font-family: Roboto;
+	position: absolute;
+	top: 45vh;
+	left: 20vw;
+	font-size: 140%;
+	cursor: pointer;
+	color: white;
+	border-width: 20%;
+	border-color: white;
+	border-style: solid;
+	width: 21%;
+	text-align: center;
+	height: 7%;
+	padding-top: 1.2%;
+	text-decoration: none;
+	
+}
+#compterendus{
+	font-family: Roboto;
+	position: absolute;
+	top: 45vh;
+	left: 60vw;
+	font-size: 140%;
+	cursor: pointer;
+	color: white;
+	border-width: 20%;
+	border-color: white;
+	border-style: solid;
+	width: 21%;
+	text-align: center;
+	height: 7%;
+	padding-top: 1.2%;
+	text-decoration: none;
+	
+}
+#choix{
+	position: absolute;
+	font-size: 350%;	
+	font-family: Robotoreg;
+	top: 10vh;
+	left: 28vw;
+	color: white;
+
+}
+#retour{
+	width: 10%;
+	height: 70px;
+	font-family: Robotoreg;
+	margin-top: 1%;
+	font-size: 120%;
+	margin-left: 1%;
+	cursor: pointer;
+	border-radius: 6%;
+}

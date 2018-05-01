@@ -1,0 +1,45 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
+
+#titre{
+	margin-left:40%;
+	font-size: 400%;
+	text-decoration: underline;
+	font-family: Robotoreg;
+
+}
+.tableau{
+	width: 50%;
+	height: 200px;
+	text-align: center;
+	margin-left: 22%;
+	margin-top: 15%;
+}
+.tb{
+	color: red;
+	font-family: Robotoreg;
+
+
+}
+.aff{
+	font-family: Roboto;
+	}
+#tableau{
+	margin-top: 2%;
+	
+}
+#mode{
+	position: absolute;
+	font-size: 150%;
+	left: 1vw;
+	text-decoration: none;
+	color: blue;
+}

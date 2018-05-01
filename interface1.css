@@ -1,0 +1,116 @@
+@font-face{
+
+	font-family: Roboto;
+	src: url(Roboto-Thin.ttf);
+}
+@font-face{
+
+	font-family: Robotoreg;
+	src: url(Roboto-Regular.ttf);
+}
+h1{
+	text-align: center;
+	margin-top: 3.5%;
+	text-decoration: underline;
+	font-family: Robotoreg;
+}
+.num_rapport{
+	font-family: Roboto;
+	margin-left: 5%;
+	
+}
+.date{
+	font-family: Roboto;
+	margin-left: 5%;
+}
+.practicien{
+
+	margin-left: 5%;
+	font-family: Roboto;
+}
+
+.motif{
+	font-family: Roboto;
+	margin-left: 3%;
+}
+.bilan{
+	font-family: Roboto;
+	margin-left: 2%;
+
+
+}
+.annuler{
+	margin-left: 10%;
+	margin-top: 11%;
+	width: 25%;
+}
+.envoyer{
+	margin-left: 9%;
+	margin-top: 3%;
+	width: 25%;
+}
+.retour{
+	position: absolute;
+	left: 4vw;
+	width: 25%;
+	top: 5vh;
+}
+.text{
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.nom{
+	margin-left: 3%;
+	font-family: Roboto;
+}
+.prenom{
+	margin-left: 5%;
+	font-family: Roboto;
+}
+.cabinet{
+	margin-left: 5%;
+	font-family: Roboto;
+}
+.produit{
+	position: absolute;
+	left: 10vw;
+	top: 43vh;
+	width: 50%;
+}
+#pro1{
+	position: absolute;
+	top: 0vh;
+	left:  15vw;
+	width: 50%;
+}
+#pro2{
+	position: absolute;
+	top: 0vh;
+	left:  45vw;
+	width: 50%;
+}
+#boutons{
+	position: absolute;
+	width: 40%;
+	top: 80vh;
+	left: 60vw;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  position: absolute;
+  left: 7vw;
+  top: 63.5vh;
+  font-size: 170%;
+  color: orange;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
